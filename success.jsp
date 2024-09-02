@@ -12,6 +12,19 @@
        out.println("welcome dear user "+user);
        
     %>
+    
+      <nav>
+          <ul>
+              <li><a href="details.html">Estates Details</a></li>
+              <li><a href="logout">Logout</a></li>
+          </ul>
+      </nav>
+      <div class="property-listing-container">
+          <h1>Available Properties</h1>
+          <div id="propertyList"></div>
+      </div>
+      
+  
 
 </body>
 </html>
