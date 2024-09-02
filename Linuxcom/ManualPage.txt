@@ -1,0 +1,10 @@
+NAME sysopctl - Command to manage system services, processes and their health SYNOPISIS """",
+ SYNOPSIS sysopctl [OPTION] COMMAND ARGUMENTS
+DESCRIPTION The sysopctl is a special Linux utility using in management... It can list stopping starting checking most services, system load checker disk usage process analysis monitoring and file backup functionalities. 
+  OPTIONS --help Display short usage guide and exit.
+Show version weight, default: False 
+ COMMANDS service list Lists the services that are currently running.
+service start // Starts a particular service.
+    service stop # Stop the service system load Shows the current system load averages disk usage Displays disk space used and available on mounted filesystems. 
+Process Monitor Monitors realtime activity of the process. 
+  Critical logs analyze Summarises some critical concept discussed recently

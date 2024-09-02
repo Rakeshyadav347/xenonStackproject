@@ -1,0 +1,39 @@
+sysopctl(8) - Control system services, processes and runtime.
+
+$ sysopctl [OPTION] [COMMAND] ARGUMENTS
+
+Options:
+
+--help this help message and exit
+
+And this line tells that it will show the version of sysopctl and excluded.
+
+Commands:
+
+service list List all active services.
+
+Start the service Use is waste of technology, you can start a particular service using below command.
+
+service stop -- Stop the specified service.
+
+Display info on system load * Display the current system-load average ### calend_same...
+
+disk usage Show disk usage statistics by partition.
+
+Process Monitor — Real-time process activity monitoring
+
+logs tail Summarize recent critical log entries
+
+backup – Launch a backup from the provided directory or path to file.
+
+Examples:
+
+$ sysopctl service list
+
+$ sysopctl service start apache2
+
+$ sysopctl system load
+
+$ sysopctl backup /home/user/documents
+
+If you want to know more, type man sysopctl.
