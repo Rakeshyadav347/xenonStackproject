@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>web search engine</title>
+<style>
+
+
+
+
+.login-container
+{
+padding: 20px;
+border-radius: 20px;
+background-color: white;
+box-shadow: 0 0 10px rgba(0 ,0 ,0, 0.2);
+width:300px;
+}
+
+body {
+align-items: center;
+text-align :center;
+display:flex;
+font-family: arial ,sans-serif;
+
+height:100vh;
+justify-content: center;
+margin:0;
+padding:0;
+background-image:url('file:///F:/backhous1.jpg');
+background-size:cover;
+
+}
+
+
+input[type="text"]{
+        border-radius: 10px;
+           margin: 10px 0;
+           padding: 10px 0;
+           width: 100%;
+           border: none;
+}
+input[type="password"]{
+border-radius: 10px;
+           margin: 10px 0;
+           padding: 10px 0;
+           width: 100%;
+           border: none;
+
+}
+input[type="submit"]{
+border-radius: 10px;
+           margin: 10px 0;
+           padding: 10px 0;
+           width: 100%;
+           border: none;
+
+}
+input:hover[type="submit"]{
+            background: linear-gradient(135deg, #71b7e6,#9b59b6);;
+            cursor: pointer;
+            color: blueviolet;
+            font-weight: bold;
+        }
+
+img{
+    background-size:cover;
+    background-image:url("Facebook-logo.png");
+    height:100px;
+    width:100px;
+}
+
+</style>
+</head>
+<body>
+<center>
+<form action="login.jsp">
+       <div class="login-container">
+           <div class="logo">
+                Login
+            </div>
+          <input type="text" name="t1" placeholder="Username">
+          <br><br>
+        <input type="password" name="t2" placeholder="Password" minlength="6">
+        <br><br>
+        <input type="submit" value="Login">
+        <br><br>
+          <a href="newuser.html"  title="creating new user">Create new account </a>
+          <br>
+          </div>
+</form>
+</center>
+
+</body>
+</html>

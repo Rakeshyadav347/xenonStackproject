@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Adding new user</title>
+</head>
+<style>
+body {
+align-items: center;
+text-align :center;
+display:flex;
+font-family: arial ,sans-serif;
+background-image:url('file:///F:/backhous1.jpg');
+background-size:cover;
+height:100vh;
+justify-content: center;
+margin:0;
+padding:0;
+
+}
+.new-container
+{
+padding: 20px;
+border-radius: 20px;
+background-color: white;
+box-shadow: 0 0 10px rgba(0 ,0 ,0, 0.2);
+width:300px;
+}
+
+input[type="text"],input[type="password"],input[type="submit"]{
+        border-radius: 10px;
+           margin: 10px 0;
+           padding: 10px 0;
+           width: 100%;
+           border: none;
+           }
+           input:hover[type="submit"]{
+            background: linear-gradient(135deg, #71b7e6,#9b59b6);;
+            cursor: pointer;
+            color: blueviolet;
+            font-weight: bold;
+        }
+</style>
+<body>
+<form action="adduser.jsp">
+<div class="new-container">
+   <h2 >Creating new user</h2>
+  <input type="text" name="t1" placeholder=" enter your name" required>
+  <br>
+  <input type="password" name="t2" placeholder=" enter password" required>
+  <br>
+  <input type="text" name="t3" placeholder=" enter age" required>
+  <br>
+  <input type="text" name="t4" placeholder=" enter phone no." required>
+  <br>
+  <input type="submit" value="add new user"> 
+  </div>
+</form>
+
+</body>
+</html>
