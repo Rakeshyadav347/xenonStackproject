@@ -1,11 +1,10 @@
 # xenonStackproject
 
-1 login
-2 homepage
-3 details
-4 newuser
+login
+details
+newuser
 styling
-5 loginjsp
+loginjsp
 adduser class
 DButil class
 userBeanclass
